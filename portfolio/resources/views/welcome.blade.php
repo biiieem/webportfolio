@@ -1,13 +1,13 @@
-<!-- resources/views/home.blade.php -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biiiem's Portfolio</title>
+    <title>Biiieem's Portfolio</title>
+    @viteReactRefresh
+    @vite('resources/js/app.jsx')
 </head>
 <body>
-    <h1>Welcome to Biiiem's Web Portfolio 🚀</h1>
-    <p>This is built with Laravel, from scratch!</p>
+    <div id="root"></div> 
 </body>
 </html>
